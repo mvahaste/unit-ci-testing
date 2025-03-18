@@ -4,13 +4,8 @@ from datetime import datetime
 
 app = FastAPI()
 
-todos = {
-    1: {
-        "title": "Create a todo list",
-        "description": "Need to create a todo list",
-        "created_at": "2021-01-01T12:00:00",
-    },
-}
+
+todos = {}
 
 
 def error(message: str, status_code: int = 400):
