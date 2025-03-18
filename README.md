@@ -4,12 +4,12 @@ This project is a simple FastAPI-based application designed to manage a todo lis
 
 # Table of contents
 
-1.  [🎨 Features](#🎨-features)
-2.  [🗂️ Application Structure](#🗂️-application-structure)
-3.  [⚙️ Installation](#⚙️-installation)
-4.  [📡 Endpoints](#📡-endpoints)
-5.  [🧪 Testing](#🧪-testing)
-6.  [🚀 GitHub Actions](#🚀-github-actions)
+1.  [🎨 Features](#-features)
+2.  [🗂️ Application Structure](#-application-structure)
+3.  [⚙️ Installation](#-installation)
+4.  [📡 Endpoints](#-endpoints)
+5.  [🧪 Testing](#-testing)
+6.  [🚀 GitHub Actions](#-github-actions)
 
 ## 🎨 Features
 
