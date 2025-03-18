@@ -79,7 +79,7 @@ pytest -v --tb=short --disable-warnings
 
 This project includes GitHub Actions for continuous integration.
 
-It automatically runs tests whenever changes are pushed to the repository and adds the test report to the job summary.
+It automatically runs tests whenever changes are pushed to the repository, generates a test report with `pytest-md` and `pytest-emoji`, and adds it to the job summary.
 
 ### Example
 
