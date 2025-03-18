@@ -29,3 +29,9 @@ jobs:
           
       - name: Run tests
         run: pytest -v --tb=short --disable-warnings --emoji --md report.md
+        
+      - name: Upload test report as artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: test-report
+          path: report.md
