@@ -32,9 +32,3 @@ jobs:
 
       - name: Add test report to job summary
         run: cat report.md >> $GITHUB_STEP_SUMMARY
-        
-      # - name: Upload test report as artifact
-      #   uses: actions/upload-artifact@v4
-      #   with:
-      #     name: test-report
-      #     path: report.md

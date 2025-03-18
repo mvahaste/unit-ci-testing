@@ -77,4 +77,6 @@ pytest -v --tb=short --disable-warnings
 
 ## 🚀 GitHub Actions
 
-This project includes GitHub Actions for continuous integration. It automatically runs tests whenever changes are pushed to the repository.
+This project includes GitHub Actions for continuous integration.
+
+It automatically runs tests whenever changes are pushed to the repository and adds the test report to the job summary.
