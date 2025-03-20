@@ -31,4 +31,5 @@ jobs:
         run: pytest -v --tb=short --disable-warnings --emoji --md report.md
 
       - name: Add test report to job summary
+        if: always()
         run: cat report.md >> $GITHUB_STEP_SUMMARY
