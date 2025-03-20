@@ -29,7 +29,7 @@ def get_root():
 
     :return: A dictionary with a message key.
     """
-    return {"message": "Goodbye, World!"}
+    return {"message": "Hello, World!"}
 
 
 @app.get("/todos")
